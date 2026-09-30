@@ -27,6 +27,9 @@ public class NumberConversionController implements Initializable {
             String message = ncModel.getGreetingsMessage(result.get());
             lblWelcomeText.setText(message);
         }
+
+
+        System.out.println("");
     }
 
     @FXML
